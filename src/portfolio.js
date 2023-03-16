@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "J Lei",
   nickname: "Jay",
   full_name: "Junjie Lei",
-  subTitle: "Software Engineer, Game Developer, Cloud Architect.",
+  subTitle: "Software Engineer, a Game Developer, and a Cloud Architect.",
   resumeLink:
     "https://www.dropbox.com/s/5gkrjqutr19qjil/Junjie_Lei_Resume.pdf?dl=0",
   mail: "jaylei2023@gmail.com",
@@ -486,8 +486,8 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://github.com/",
+      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on LinkedIn.",
+    link: "https://github.com/LAYTAT",
     avatar_image_path: "blogs_image.svg",
   },
 };
