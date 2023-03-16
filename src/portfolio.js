@@ -3,8 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
 };
 
 //Home Page
@@ -298,7 +297,7 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "AWS Certified Solutions Architect - Associate Level",
+      title: "AWS Certified Solutions Architect",
       subtitle: "Use AWS to solve problems.",
       logo_path: "AWS-SolArchitect-Associate.png",
       certificate_link:
@@ -330,140 +329,159 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Node.js Backend Developer",
-          company: "Valora Infotech",
-          company_url: "http://valorainfotech.com/",
-          logo_path: "valora.jpg",
-          duration: "Nov 2021 - Dec 2022",
-          location: "Surat, Gujarat",
-          description: `Train, oversee, and mentor young software development employees. I created and managed the admin panel backend and a gambling application as a Node.js backend developer. I obtained knowledge in Web Socket, Payment Gateway Integration, and gaming legislation, while growing my industry experience and investigating new technologies.
+          title: "Solutions Architect (Intern)",
+          company: "Amazon Web Services",
+          company_url: "https://aws.amazon.com",
+          logo_path: "aws_logo.png",
+          duration: "May 2022 - Aug 2022",
+          location: "Seattle, Washington",
+          description: `During my time at AWS, my primary focus was the development of an internal system utilized by thousands of AWS employees. I was responsible for implementing report management features within the in-house CRM system to ensure AWS solutions architects could accurately and promptly record their work with partners, including report hygiene checks and due notifications using AWS SNS.
+
+          To optimize the system's performance, I decoupled and streamlined existing modules using various AWS services such as AWS API Gateway, AWS Lambda, AWS CloudFront, and AWS SQS. This resulted in a reduction of operational overhead, improved system availability, and simplified the codebase.
+          
+          To enhance the system's data security, I integrated the current modules with AWS IAM, Cognito, and Secret Manager.
+          
+          In addition, I designed and implemented a recommendation feature that increased user input efficiency using AWS DynamoDB and AWS Polaris React framework. I utilized AWS CDK and CodePipeline for streamlined cloud resource provisioning.`,
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          color: "#ee3c26",
+        },
+        {
+          title: "Software Engineer (C++)",
+          company: "UltraSine Technologies Co., Ltd",
+          company_url: "https://www.ni.com/partners/s/partner/aDx3q00000000CICAY/ultrasine-technologies-co-ltd?language=ko",
+          logo_path: "NI_Logo.png",
+          duration: "Feb 2021 - July 2021",
+          location: "Chengdu, Sichuan, China",
+          description: `In my previous work experience, I gained extensive expertise in GPU computation using OpenCL, client development with QT in C++, and rendering graphics with OpenGL. Specifically, I engaged in the re-engineering of computation modules for optimized performance by utilizing GPUs with OpenCL and CUDA. This led to a remarkable enhancement of critical calculations such as IIR filter, resulting in a speed increase of over 100%. Moreover, I developed a metric system to analyze system performance. Additionally, I designed a real-time graphs rendering feature for clients to analyze real-time spectrum within the analysis system using OpenGL. I implemented dynamic scaling to ensure a stable refresh rate of 60 Hz for clients with different computing power levels. Finally, I directed the implementation of features that facilitated the system to run over Wi-Fi on drones with self-designed transfer protocols using UDP.
           `,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
         {
-          title: "Node.js Backend Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "http://valorainfotech.com/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Surat, Gujarat",
-          description: `Focus on change request functions in close collaboration with the project manager and team leads.
-          Developed new and maintained existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
-        {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
-          description: `Maintain close contact with the client and team when handling change requests.
-          LAMP Stack was mostly utilised. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
+          title: "Game Software Engineer (C++)",
+          company: "Ragnarok Origin Development",
+          company_url: "https://ragnarok-origin.com",
+          logo_path: "ro.png",
+          duration: "June 2020 - Feb 2021",
+          location: "Shanghai, China",
+          description: `This mobile game originated from the popular MMORPG Ragnarok Online. During my time, I played a key role in facilitating the development of core modules for the game server, including the global ranking, online payment, and holiday task system.
+
+          My contributions to the global ranking module resulted in a 20% increase in performance, while the development of a generic task distribution module enhanced the system's overall efficiency.
+          
+          Furthermore, I optimized the I/O multiplexing with epoll for featured server services, leading to a 10% increase in server CPU utilization efficiency.
+          
+          To ensure a seamless gaming experience, I designed and implemented a synchronization solution that compensated client applications with smooth strategies to stabilize game rendering, even with more than 150ms network latency. This led to a better client experience, resulting in increased user engagement and satisfaction. `,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
         {
-          title: "Community Lead",
-          company: "Bauddhik-Geeks",
-          company_url: "https://bauddhikgeeks.tech/",
-          logo_path: "bauddhikgeeks.png",
-          duration: "Sep 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Help Tech-Geeks so they get exposure to the technical world and enlighten their skills. Hence, the programming club highlight all the skills of the individual members and help them develop and groom their skills in a meaningful way. Help community members to learn and grow.",
-          color: "#FBBD18",
-        },
-        {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
-        // {
-        //   title: "Campus Hustler",
-        //   company: "Skillenza",
-        //   company_url: "https://skillenza.com/",
-        //   logo_path: "skillenza.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work from Home",
-        //   description:
-        //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-        //   color: "#196acf",
-        // },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "Postman Student Expert",
-          company: "Postman",
-          company_url: "https://www.postman.com/",
-          logo_path: "postman.png",
-          duration: "Feb 2020 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
+          title: "Node.js Backend Engineer",
+          company: "Miaowrite",
+          company_url: "https://www.miaowrite.com",
+          logo_path: "miaowrite.png",
+          duration: "April 2020 - June 2020",
+          location: "Shanghai, China",
+          description: `I worked on an online text editor project that focused on assisting with thesis writing. During my time, I introduced a conversion feature from Document Object Model (DOM) to custom data structures for the web text editor. This conversion feature was designed to be highly efficient, with a minimal time complexity, and it greatly improved the performance of the text editor.
+
+          Furthermore, I was responsible for optimizing the database query time of the system. To achieve this, I employed several strategies, including verbose queries, indexing, and caching mechanisms with a higher hit rate. These efforts resulted in a significant 40% reduction in database query time, which significantly improved the overall performance of the system.`,
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          color: "#0071C5",
         },
       ],
     },
+    // {
+    //   title: "Other",
+    //   experiences: [
+    //     {
+    //       title: "Community Lead",
+    //       company: "Bauddhik-Geeks",
+    //       company_url: "https://bauddhikgeeks.tech/",
+    //       logo_path: "bauddhikgeeks.png",
+    //       duration: "Sep 2021 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Help Tech-Geeks so they get exposure to the technical world and enlighten their skills. Hence, the programming club highlight all the skills of the individual members and help them develop and groom their skills in a meaningful way. Help community members to learn and grow.",
+    //       color: "#FBBD18",
+    //     },
+    //     {
+    //       title: "Cross Winter of Code Mentor",
+    //       company: "CWOC",
+    //       company_url: "https://crosswoc.ieeedtu.in/",
+    //       logo_path: "cwoc.png",
+    //       duration: "Feb 2021 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+    //       color: "#4285F4",
+    //     },
+    //     // {
+    //     //   title: "Campus Hustler",
+    //     //   company: "Skillenza",
+    //     //   company_url: "https://skillenza.com/",
+    //     //   logo_path: "skillenza.png",
+    //     //   duration: "Feb 2021 - Present",
+    //     //   location: "Work from Home",
+    //     //   description:
+    //     //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
+    //     //   color: "#196acf",
+    //     // },
+    //     {
+    //       title: "GDG Student Volunteer",
+    //       company: "Google Developer Groups",
+    //       company_url: "https://gdg.community.dev/",
+    //       logo_path: "gdg.png",
+    //       duration: "Feb 2021 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Google Developer Group Surat Student Volunteer and Member.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "Postman Student Expert",
+    //       company: "Postman",
+    //       company_url: "https://www.postman.com/",
+    //       logo_path: "postman.png",
+    //       duration: "Feb 2020 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Google Developer Group Surat Student Volunteer and Member.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "GitHub Student Developer",
+    //       company: "GitHub",
+    //       company_url: "https://github.com/",
+    //       logo_path: "github.png",
+    //       duration: "Nov 2019 - Present",
+    //       location: "Work from Home",
+    //       description:
+    //         "Contribute to Open Source Community and Open Source Project.",
+    //       color: "#040f26",
+    //     },
+    //     {
+    //       title: "Google Local Guide",
+    //       company: "Google Map",
+    //       company_url: "https://maps.google.com/localguides/",
+    //       logo_path: "localguide.png",
+    //       duration: "Sep 2018 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "E. F. I. Student Volunteer",
+    //       company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
+    //       company_url: "https://indiaenvironment.org/",
+    //       logo_path: "efi.png",
+    //       duration: "Apr 2017 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+    //       color: "#5a900f",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -471,7 +489,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create C++ software, NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -497,7 +515,7 @@ const projects = {  // TODO: add projects
     {
       id: "0",
       name: "Keep Calm and Carry On",
-      url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
+      url: "https://github.com/LAYTAT",
       description:
         "This platform enables users to practice Augmented Reality meditation, play stress burster games, track task completion and engage in motivational exercises to cope with stress and anxiety at work.  ",
       languages: [
@@ -521,18 +539,18 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
         {
           name: "Devpost",
-          url: "https://devpost.com/software/keep-calm-and-carry-on",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "fluent:window-dev-edit-20-filled",
         },
         {
           name: "Live Demo",
           url:
-            "https://akshitagupta15june.github.io/Keep-Calm-and-Carry-On.github.io/",
+            "https://github.com/LAYTAT",
           iconifyClass: "mdi:web",
         },
       ],
@@ -540,7 +558,7 @@ const projects = {  // TODO: add projects
     {
       id: "1",
       name: "YOG4LIFE SOCIAL APP",
-      url: "https://github.com/kevalvavaliya/Yog4Life",
+      url: "https://github.com/LAYTAT",
       description:
         "An app for helping people their healthy life. Yog4Life Has a feed feature which is help to get information from the folks, Yog4Life has an anonymous chat room to get connected with the world.",
       languages: [
@@ -556,12 +574,12 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/kevalvavaliya/Yog4Life",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
         {
           name: "Devfolio",
-          url: "https://devfolio.co/projects/yoglife-b20d",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "fluent:window-dev-edit-20-filled",
         },
       ],
@@ -569,7 +587,7 @@ const projects = {  // TODO: add projects
     {
       id: "2",
       name: "Adoptisity",
-      url: "https://github.com/kevalvavaliya/Adoptisity",
+      url: "https://github.com/LAYTAT",
       description:
         "Our mission is to spread awareness about the benefits of adoption and to support LGBT families so that everyone has the chance to have a loving home environment.",
       languages: [
@@ -593,17 +611,17 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/Adoptisity",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
         {
           name: "Devpost",
-          url: "https://devpost.com/software/adoptisity",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "fluent:window-dev-edit-20-filled",
         },
         {
           name: "Live Demo",
-          url: "https://rajmahadevwala1.wixsite.com/adoptisity",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "mdi:web",
         },
       ],
@@ -611,7 +629,7 @@ const projects = {  // TODO: add projects
     {
       id: "3",
       name: "FinSplit",
-      url: "https://github.com/rajmahadev8/Fin-Split",
+      url: "https://github.com/LAYTAT",
       description:
         "Split your bills with your friends without any hassle. Manage Group Expenses, Track your expenses, and much more.",
       languages: [
@@ -627,7 +645,7 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/rajmahadev8/Fin-Split",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
         {
@@ -640,7 +658,7 @@ const projects = {  // TODO: add projects
     {
       id: "4",
       name: "Emosic",
-      url: "https://github.com/kevalvavaliya/Emosic",
+      url: "https://github.com/LAYTAT",
       description:
         "An app that plays music according to your mood. Created a playlist management UI and used SpotifyAPI to control player client based on mood detection using ml model.",
       languages: [
@@ -660,12 +678,12 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/kevalvavaliya/Emosic",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
         {
           name: "Devpost",
-          url: "https://devpost.com/software/emosic",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "fluent:window-dev-edit-20-filled",
         },
       ],
@@ -673,7 +691,7 @@ const projects = {  // TODO: add projects
     {
       id: "5",
       name: "Fileblok",
-      url: "https://github.com/harikanani/Fileblok",
+      url: "https://github.com/LAYTAT",
       description:
         "Keep your projects moving with seamless transfer experice. FileBlok is a file transfer app that allows you to transfer files from one device to another without any hassle. We built this app using Flutter, Node.js and StoryBlok.",
       languages: [
@@ -693,12 +711,12 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/Fileblok",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
         {
           name: "Devpost",
-          url: "https://devpost.com/software/fileblok",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "fluent:window-dev-edit-20-filled",
         },
       ],
@@ -706,7 +724,7 @@ const projects = {  // TODO: add projects
     {
       id: "6",
       name: "BAUDDIK-GEEKS PORTFOLIO",
-      url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
+      url: "https://github.com/LAYTAT",
       description:
         "Awesome Community Portfolio website for Bauddhik-Geeks community",
       languages: [
@@ -726,12 +744,12 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
         {
           name: "Live Demo",
-          url: "https://bauddhikgeeks.co/",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "mdi:web",
         },
       ],
@@ -739,7 +757,7 @@ const projects = {  // TODO: add projects
     {
       id: "7",
       name: "Votechain",
-      url: "https://github.com/abhigoyani/votechain",
+      url: "https://github.com/LAYTAT",
       description:
         "Awesome Community Portfolio website for Bauddhik-Geeks community",
       languages: [
@@ -767,7 +785,7 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/abhigoyani/votechain",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
       ],
@@ -775,7 +793,7 @@ const projects = {  // TODO: add projects
     {
       id: "8",
       name: "Swag Store",
-      url: "https://github.com/harikanani/e-commerce-frontend",
+      url: "https://github.com/LAYTAT",
       description:
         "An E-commerce website built using MERN[Mongo, Express, React, Node] stack and we have also added stripe payment gateway integration [in test mode].",
       languages: [
@@ -795,7 +813,7 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/e-commerce-frontend",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
       ],
@@ -803,7 +821,7 @@ const projects = {  // TODO: add projects
     {
       id: "9",
       name: "node-blockchain",
-      url: "https://github.com/harikanani/node-blockchain",
+      url: "https://github.com/LAYTAT",
       description:
         "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
       languages: [
@@ -819,7 +837,7 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/node-blockchain",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
       ],
@@ -827,7 +845,7 @@ const projects = {  // TODO: add projects
     {
       id: "10",
       name: "Know Me Well",
-      url: "https://github.com/harikanani/personal-portfolio",
+      url: "https://github.com/LAYTAT",
       description:
         "A simple command line interface based quiz app to know more about me :).",
       languages: [
@@ -847,7 +865,7 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/personal-portfolio",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
       ],
@@ -855,7 +873,7 @@ const projects = {  // TODO: add projects
     {
       id: "11",
       name: "Bloggify",
-      url: "https://github.com/harikanani/Bloggify",
+      url: "https://github.com/LAYTAT",
       description: "A Simple REST API for Blog Application.",
       languages: [
         {
@@ -866,7 +884,7 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/Bloggify",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
       ],
@@ -874,7 +892,7 @@ const projects = {  // TODO: add projects
     {
       id: "12",
       name: "Stargazzers",
-      url: "https://github.com/harikanani/stargazers",
+      url: "https://github.com/LAYTAT",
       description: "An Unofficial API for GitHub Repo Stars Count",
       languages: [
         {
@@ -885,7 +903,7 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/stargazers",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
       ],
@@ -893,7 +911,7 @@ const projects = {  // TODO: add projects
     {
       id: "13",
       name: "GitHub Theme Portfolio",
-      url: "https://github.com/harikanani/harikanani.github.io",
+      url: "https://github.com/LAYTAT",
       description:
         "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
       languages: [
@@ -917,12 +935,12 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/harikanani.github.io",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
         {
           name: "Live Demo",
-          url: "https://harikanani.github.io/",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "mdi:web",
         },
       ],
@@ -930,7 +948,7 @@ const projects = {  // TODO: add projects
     {
       id: "10",
       name: "COVID-19 Tracker",
-      url: "https://github.com/harikanani/Covid19TrackerReact",
+      url: "https://github.com/LAYTAT",
       description:
         "Simple Covid-19 Tracker made using React and deployed to Vercel.",
       languages: [
@@ -954,7 +972,7 @@ const projects = {  // TODO: add projects
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/Covid19TrackerReact",
+          url: "https://github.com/LAYTAT",
           iconifyClass: "ri:github-fill",
         },
       ],

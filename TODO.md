@@ -1,3 +1,2 @@
-* add experience,
-* add projects
+* Updates projects
 * Proofread
