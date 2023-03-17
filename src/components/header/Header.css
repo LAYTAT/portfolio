@@ -67,7 +67,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #fb1056;
+  background: #146EB4;
   display: block;
   height: 2px;
   position: relative;
@@ -77,7 +77,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #fb1056;
+  background: #146EB4;
   content: "";
   display: block;
   height: 100%;
@@ -140,8 +140,8 @@
 }
 
 .ec:hover {
-  box-shadow: 0 2px 10px #eb6559;
-  background-color: #eb6559;
+  box-shadow: 0 2px 10px #3c7eb0;
+  background-color: #3178ae;
   color: #ffffff !important;
 }
 
@@ -164,8 +164,8 @@
 }
 
 .projects:hover {
-  box-shadow: 0 2px 10px #e44160;
-  background-color: #e44160;
+  box-shadow: 0 2px 10px #146EB4;
+  background-color: #146EB4;
   color: #ffffff !important;
 }
 

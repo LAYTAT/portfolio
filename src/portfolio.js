@@ -13,7 +13,7 @@ const greeting = {
   logo_name: "J Lei",
   nickname: "Jay",
   full_name: "Junjie Lei",
-  subTitle: "Software Engineer, a Game Developer, and a Cloud Architect.",
+  subTitle: "A software engineer, a game developer, and a cloud architect.",
   resumeLink:
     "https://www.dropbox.com/s/5gkrjqutr19qjil/Junjie_Lei_Resume.pdf?dl=0",
   mail: "jaylei2023@gmail.com",
@@ -343,11 +343,11 @@ const experience = {
           
           In addition, I designed and implemented a recommendation feature that increased user input efficiency using AWS DynamoDB and AWS Polaris React framework. I utilized AWS CDK and CodePipeline for streamlined cloud resource provisioning.`,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#ee3c26",
+          color: "#FF9900",
         },
         {
           title: "Software Engineer (C++)",
-          company: "UltraSine Technologies Co., Ltd",
+          company: "(National Instruments) UltraSine Technologies Co., Ltd",
           company_url: "https://www.ni.com/partners/s/partner/aDx3q00000000CICAY/ultrasine-technologies-co-ltd?language=ko",
           logo_path: "NI_Logo.png",
           duration: "Feb 2021 - July 2021",
@@ -359,7 +359,7 @@ const experience = {
         },
         {
           title: "Game Software Engineer (C++)",
-          company: "Ragnarok Origin Development",
+          company: "Ragnarok Origin Game Studio",
           company_url: "https://ragnarok-origin.com",
           logo_path: "ro.png",
           duration: "June 2020 - Feb 2021",
@@ -372,11 +372,11 @@ const experience = {
           
           To ensure a seamless gaming experience, I designed and implemented a synchronization solution that compensated client applications with smooth strategies to stabilize game rendering, even with more than 150ms network latency. This led to a better client experience, resulting in increased user engagement and satisfaction. `,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
+          color: "#0071C5",
         },
         {
           title: "Node.js Backend Engineer",
-          company: "Miaowrite",
+          company: "Miaowrite Tech (Startup)",
           company_url: "https://www.miaowrite.com",
           logo_path: "miaowrite.png",
           duration: "April 2020 - June 2020",
@@ -818,165 +818,165 @@ const projects = {  // TODO: add projects
         },
       ],
     },
-    {
-      id: "9",
-      name: "node-blockchain",
-      url: "https://github.com/LAYTAT",
-      description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "skill-icons:typescript",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Know Me Well",
-      url: "https://github.com/LAYTAT",
-      description:
-        "A simple command line interface based quiz app to know more about me :).",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "Repl.it",
-          iconifyClass: "logos-replit-icon",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Bloggify",
-      url: "https://github.com/LAYTAT",
-      description: "A Simple REST API for Blog Application.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Stargazzers",
-      url: "https://github.com/LAYTAT",
-      description: "An Unofficial API for GitHub Repo Stars Count",
-      languages: [
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "13",
-      name: "GitHub Theme Portfolio",
-      url: "https://github.com/LAYTAT",
-      description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Live Demo",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "mdi:web",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      url: "https://github.com/LAYTAT",
-      description:
-        "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
+    // {
+    //   id: "9",
+    //   name: "node-blockchain",
+    //   url: "https://github.com/LAYTAT",
+    //   description:
+    //     "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
+    //   languages: [
+    //     {
+    //       name: "NodeJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //     {
+    //       name: "TypeScript",
+    //       iconifyClass: "skill-icons:typescript",
+    //     },
+    //   ],
+    //   links: [
+    //     {
+    //       name: "Github",
+    //       url: "https://github.com/LAYTAT",
+    //       iconifyClass: "ri:github-fill",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "10",
+    //   name: "Know Me Well",
+    //   url: "https://github.com/LAYTAT",
+    //   description:
+    //     "A simple command line interface based quiz app to know more about me :).",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "NodeJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //     {
+    //       name: "Repl.it",
+    //       iconifyClass: "logos-replit-icon",
+    //     },
+    //   ],
+    //   links: [
+    //     {
+    //       name: "Github",
+    //       url: "https://github.com/LAYTAT",
+    //       iconifyClass: "ri:github-fill",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "11",
+    //   name: "Bloggify",
+    //   url: "https://github.com/LAYTAT",
+    //   description: "A Simple REST API for Blog Application.",
+    //   languages: [
+    //     {
+    //       name: "NodeJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //   ],
+    //   links: [
+    //     {
+    //       name: "Github",
+    //       url: "https://github.com/LAYTAT",
+    //       iconifyClass: "ri:github-fill",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "12",
+    //   name: "Stargazzers",
+    //   url: "https://github.com/LAYTAT",
+    //   description: "An Unofficial API for GitHub Repo Stars Count",
+    //   languages: [
+    //     {
+    //       name: "NodeJs",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //   ],
+    //   links: [
+    //     {
+    //       name: "Github",
+    //       url: "https://github.com/LAYTAT",
+    //       iconifyClass: "ri:github-fill",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "13",
+    //   name: "GitHub Theme Portfolio",
+    //   url: "https://github.com/LAYTAT",
+    //   description:
+    //     "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "SCSS",
+    //       iconifyClass: "vscode-icons:file-type-scss2",
+    //     },
+    //   ],
+    //   links: [
+    //     {
+    //       name: "Github",
+    //       url: "https://github.com/LAYTAT",
+    //       iconifyClass: "ri:github-fill",
+    //     },
+    //     {
+    //       name: "Live Demo",
+    //       url: "https://github.com/LAYTAT",
+    //       iconifyClass: "mdi:web",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "10",
+    //   name: "COVID-19 Tracker",
+    //   url: "https://github.com/LAYTAT",
+    //   description:
+    //     "Simple Covid-19 Tracker made using React and deployed to Vercel.",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //   ],
+    //   links: [
+    //     {
+    //       name: "Github",
+    //       url: "https://github.com/LAYTAT",
+    //       iconifyClass: "ri:github-fill",
+    //     },
+    //   ],
+    // },
   ],
 };
 
