@@ -303,7 +303,7 @@ const certifications = {
       certificate_link:
         "https://www.dropbox.com/s/k7wrxiyli124iz2/AWS%20Certified%20Solutions%20Architect%20-%20Associate%20certificate.pdf?dl=0",
       alt_name: "AWS Solutions Architect",
-      color_code: "#E2405F",
+      color_code: "#146EB4",
     },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
