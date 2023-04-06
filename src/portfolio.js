@@ -13,7 +13,7 @@ const greeting = {
   logo_name: "J Lei",
   nickname: "Jay",
   full_name: "Junjie Lei",
-  subTitle: "A software engineer, a game developer, and a cloud architect.",
+  subTitle: "I am a software engineer, a game developer, a cloud architect, and a dog lover.",
   resumeLink:
     "https://www.dropbox.com/s/5gkrjqutr19qjil/Junjie_Lei_Resume.pdf?dl=0",
   mail: "jaylei2023@gmail.com",
@@ -322,7 +322,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've completed quite a few internships and mostly done projects on my own. I am actively seeking tech positions, including software engineer and cloud architect. I love doing a project that genuinely impacts our daily lives.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -514,176 +514,226 @@ const projects = {  // TODO: add projects
   data: [
     {
       id: "0",
-      name: "Keep Calm and Carry On",
-      url: "https://github.com/LAYTAT",
+      name: "Reliable UDP Multicast",
+      url: "https://github.com/LAYTAT/Reliable-UDP-Multicast-Demo",
       description:
-        "This platform enables users to practice Augmented Reality meditation, play stress burster games, track task completion and engage in motivational exercises to cope with stress and anxiety at work.  ",
+      "A fast and reliable way to multicast data using the UDP protocol, which can be used as part of a larger infrastructure for synchronizing data between servers. ",
       languages: [
+        {
+          name: "C",
+          iconifyClass: "mdi:language-c",
+        },
+        {
+          name: "C++",
+          iconifyClass: "vscode-icons:file-type-cpp2",
+        },
+        {
+          name: "UDP",
+          iconifyClass: "carbon:tcp-ip-service",
+        },
         {
           name: "HTML5",
           iconifyClass: "logos-html-5",
         },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "Augmented Reality",
-          iconifyClass: "bi:badge-ar",
-        },
+        // {
+        //   name: "CSS3",
+        //   iconifyClass: "logos-css-3",
+        // },
+        // {
+        //   name: "NodeJs",
+        //   iconifyClass: "logos-nodejs",
+        // }
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/LAYTAT",
+          url: "https://github.com/LAYTAT/Reliable-UDP-Multicast-Demo",
           iconifyClass: "ri:github-fill",
         },
-        {
-          name: "Devpost",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
-          name: "Live Demo",
-          url:
-            "https://github.com/LAYTAT",
-          iconifyClass: "mdi:web",
-        },
+        // {
+        //   name: "Devpost",
+        //   url: "https://github.com/LAYTAT",
+        //   iconifyClass: "fluent:window-dev-edit-20-filled",
+        // },
+        // {
+        //   name: "Live Demo",
+        //   url:
+        //     "https://github.com/LAYTAT",
+        //   iconifyClass: "mdi:web",
+        // },
       ],
     },
     {
       id: "1",
-      name: "YOG4LIFE SOCIAL APP",
-      url: "https://github.com/LAYTAT",
+      name: "Small-Gaming-Server-Demo",
+      url: "https://github.com/LAYTAT/Small-Gaming-Server-Demo",
       description:
-        "An app for helping people their healthy life. Yog4Life Has a feed feature which is help to get information from the folks, Yog4Life has an anonymous chat room to get connected with the world.",
+        "This is a small but scalable gaming server.",
       languages: [
         {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
+          name: "C",
+          iconifyClass: "mdi:language-c",
         },
         {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
+          name: "C++",
+          iconifyClass: "vscode-icons:file-type-cpp2",
+        },
+        {
+          name: "Socket",
+          iconifyClass: "logos:websocket",
+        },
+        {
+          name: "UDP",
+          iconifyClass: "carbon:tcp-ip-service",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "logos-html-5",
         },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/LAYTAT",
+          url: "https://github.com/LAYTAT/Small-Gaming-Server-Demo",
           iconifyClass: "ri:github-fill",
         },
         {
           name: "Devfolio",
-          url: "https://github.com/LAYTAT",
+          url: "https://github.com/LAYTAT/Small-Gaming-Server-Demo",
           iconifyClass: "fluent:window-dev-edit-20-filled",
         },
       ],
     },
     {
       id: "2",
-      name: "Adoptisity",
-      url: "https://github.com/LAYTAT",
+      name: "Mail Sync",
+      url: "https://github.com/LAYTAT/mail_system",
       description:
-        "Our mission is to spread awareness about the benefits of adoption and to support LGBT families so that everyone has the chance to have a loving home environment.",
+        "This system provides fault-tolerant email service by replicating emails across multiple servers to prevent data loss in case of a (network) failure.",
       languages: [
+        {
+          name: "C",
+          iconifyClass: "mdi:language-c",
+        },
+        {
+          name: "C++",
+          iconifyClass: "vscode-icons:file-type-cpp2",
+        },
+        {
+          name: "Socket",
+          iconifyClass: "logos:websocket",
+        },
+        {
+          name: "UDP",
+          iconifyClass: "carbon:tcp-ip-service",
+        },
         {
           name: "HTML5",
           iconifyClass: "logos-html-5",
         },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Wix",
-          iconifyClass: "bxl:wix",
-        },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/LAYTAT",
+          url: "https://github.com/LAYTAT/Small-Gaming-Server-Demo",
           iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
-          name: "Live Demo",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "mdi:web",
-        },
+        }
       ],
     },
     {
       id: "3",
-      name: "FinSplit",
-      url: "https://github.com/LAYTAT",
+      name: "A LITTLE AR GAME",
+      url: "https://github.com/LAYTAT/A-LITTLE-AR-GAME",
       description:
-        "Split your bills with your friends without any hassle. Manage Group Expenses, Track your expenses, and much more.",
+        "This is a mobile action game that could run on your physical desks, check it out!",
       languages: [
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
+          name: "Unity Engine",
+          iconifyClass: "mdi:unity",
         },
         {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
+          name: "C#",
+          iconifyClass: "logos:c-sharp",
+        },
+        {
+          name: "Android",
+          iconifyClass: "ri:android-fill",
+        },
+        {
+          name: "Augmented Reality",
+          iconifyClass: "bi:badge-ar",
+        },
+        {
+          name: "C++",
+          iconifyClass: "vscode-icons:file-type-cpp2",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "logos-html-5",
         },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/LAYTAT",
+          url: "https://github.com/LAYTAT/A-LITTLE-AR-GAME",
           iconifyClass: "ri:github-fill",
         },
         {
           name: "Devpost",
-          url: "https://devpost.com/software/finsplit",
+          url: "https://github.com/LAYTAT/A-LITTLE-AR-GAME",
           iconifyClass: "fluent:window-dev-edit-20-filled",
         },
       ],
     },
     {
       id: "4",
-      name: "Emosic",
-      url: "https://github.com/LAYTAT",
+      name: "VR Game Latency Optimizer",
+      url: "https://www.dsn.jhu.edu/courses/cs717/cs717-oculus-website/",
       description:
-        "An app that plays music according to your mood. Created a playlist management UI and used SpotifyAPI to control player client based on mood detection using ml model.",
+        "This is an VR game with a server system implemented to demonstrate a method to optimize the latency for online games, especially for VR experiences (not just games).",
       languages: [
+        // {
+        //   name: "HTML5",
+        //   iconifyClass: "logos-html-5",
+        // },
+        // {
+        //   name: "CSS3",
+        //   iconifyClass: "logos-css-3",
+        // },
+        {
+          name: "Virtual Reality",
+          iconifyClass: "bi:badge-vr",
+        },
+        {
+          name: "C#",
+          iconifyClass: "logos:c-sharp",
+        },
+        {
+          name: "Android",
+          iconifyClass: "ri:android-fill",
+        },
+        {
+          name: "Oculus",
+          iconifyClass: "gg:oculus",
+        },
+        {
+          name: "C++",
+          iconifyClass: "vscode-icons:file-type-cpp2",
+        },
         {
           name: "HTML5",
           iconifyClass: "logos-html-5",
         },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
       ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "ri:github-fill",
-        },
+        // {
+        //   name: "Github",
+        //   url: "https://github.com/LAYTAT",
+        //   iconifyClass: "ri:github-fill",
+        // },
         {
           name: "Devpost",
-          url: "https://github.com/LAYTAT",
+          url: "https://www.dsn.jhu.edu/courses/cs717/cs717-oculus-website/",
           iconifyClass: "fluent:window-dev-edit-20-filled",
         },
       ],
@@ -721,41 +771,41 @@ const projects = {  // TODO: add projects
         },
       ],
     },
+    // {
+    //   id: "6",
+    //   name: "BAUDDIK-GEEKS PORTFOLIO",
+    //   url: "https://github.com/LAYTAT",
+    //   description:
+    //     "Awesome Community Portfolio website for Bauddhik-Geeks community",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //   ],
+    //   links: [
+    //     {
+    //       name: "Github",
+    //       url: "https://github.com/LAYTAT",
+    //       iconifyClass: "ri:github-fill",
+    //     },
+    //     {
+    //       name: "Live Demo",
+    //       url: "https://github.com/LAYTAT",
+    //       iconifyClass: "mdi:web",
+    //     },
+    //   ],
+    // },
     {
       id: "6",
-      name: "BAUDDIK-GEEKS PORTFOLIO",
-      url: "https://github.com/LAYTAT",
-      description:
-        "Awesome Community Portfolio website for Bauddhik-Geeks community",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Live Demo",
-          url: "https://github.com/LAYTAT",
-          iconifyClass: "mdi:web",
-        },
-      ],
-    },
-    {
-      id: "7",
       name: "Votechain",
       url: "https://github.com/LAYTAT",
       description:
@@ -791,7 +841,7 @@ const projects = {  // TODO: add projects
       ],
     },
     {
-      id: "8",
+      id: "7",
       name: "Swag Store",
       url: "https://github.com/LAYTAT",
       description:
