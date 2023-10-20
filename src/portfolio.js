@@ -9,10 +9,10 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "J Lei",
-  logo_name: "J Lei",
-  nickname: "Jay",
-  full_name: "Junjie Lei",
+  title2: "JJ Lei",
+  logo_name: "JJ Lei",
+  nickname: "J",
+  full_name: "JJ Lei",
   subTitle: "I am a software engineer, a game developer, a cloud architect, and a dog lover.",
   resumeLink:
     "https://www.dropbox.com/s/5gkrjqutr19qjil/Junjie_Lei_Resume.pdf?dl=0",
@@ -24,7 +24,7 @@ const socialMediaLinks = {
   github: "https://github.com/LAYTAT",
   linkedin: "https://www.linkedin.com/in/junjie-lei-b8434718b/",
   gmail: "jaylei2023@gmail.com",
-  instagram: "https://www.instagram.com/super_fly_j_lei/",
+  instagram: "https://www.instagram.com/super_fly_jjjj/",
 };
 
 const skills = {
@@ -276,7 +276,7 @@ const degrees = {
       alt_name: "JHU",
       duration: "2021 - Present",
       descriptions: [
-        "⚡ I'm currently pursuing my Master's Degree in Computer Science.",
+        "⚡ During my master's degree, I completed several projects mainly focused on distributed systems, game server development, and full-stack development. These projects allowed me to apply my knowledge of computer science to solve complex problems in these areas. I collaborated with my classmates to design and implement distributed systems, game servers, and full-stack applications using various technologies and programming languages. These projects were challenging but rewarding, as they allowed me to gain hands-on experience in these fields and prepared me for a career in software development. Overall, these projects deepened my passion for technology and gave me a solid foundation to pursue my career goals.",
       ],
       website_link: "https://engineering.jhu.edu",
     },
@@ -287,7 +287,7 @@ const degrees = {
       alt_name: "ECUST_LOGO",
       duration: "2016 - 2020",
       descriptions: [
-        "⚡ I have implemented several projects based on what I've leart under my Software Engineering courses. ",
+        "⚡ In my undergrad, I completed multiple software engineering projects where I applied programming skills and collaborated with peers to design, develop, and test software applications using diverse languages and tools. These challenging projects helped me gain hands-on experience in software development, project management, and prepared me for a career in software engineering, fueling my passion for innovative tech solutions. ",
       ],
       website_link: "https://www.ecust.edu.cn/en/2022/0307/c574a164928/page.htm",
     },

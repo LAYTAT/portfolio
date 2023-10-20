@@ -35,7 +35,7 @@ export default function Greeting(props) {
                 </span>
                 {greeting.subTitle}
                 <br></br>
-                <span> You could call me Jay. </span>
+                <span> You could call me JJ or J. </span>
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
