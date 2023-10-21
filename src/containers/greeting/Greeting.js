@@ -34,8 +34,6 @@ export default function Greeting(props) {
                   {greeting.full_name}.{" "}
                 </span>
                 {greeting.subTitle}
-                <br></br>
-                <span> You could call me JJ or J. </span>
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
