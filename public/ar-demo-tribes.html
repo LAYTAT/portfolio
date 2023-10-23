@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Where are the tribes</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+  </head>
+
+  <body>
+    <a-scene
+      vr-mode-ui="enabled: false"
+      arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
+    >
+      <a-entity material='color: red' geometry='primitive: box' gps-new-entity-place="latitude: 47.60044085522263; longitude: -122.38571943888068;" scale="100 100 100"></a-entity>
+    <a-text
+        value="Duwamish Head"
+        look-at="[gps-camera]"
+        scale="100 100 100"
+        gps-entity-place="latitude: 47.60044085522263; longitude: -122.38571943888068;"
+      ></a-text>
+
+    <!-- <a-entity material='color: yellow' geometry='primitive: sphere' gps-new-entity-place="latitude: 43.65625539181551; longitude: -79.39957284229115;" scale="10 10 10"></a-entity> -->
+<!--     <a-text
+        value="Inuit Tribe"
+        look-at="[gps-camera]"
+        scale="100 100 100"
+        gps-entity-place="latitude: 43.65625539181551; longitude: -79.39957284229115;"
+      ></a-text> -->
+
+    <!-- <a-entity material='color: blue' geometry='primitive: cylinder' gps-new-entity-place="latitude: 40.50243197313075; longitude: -74.25166359436211;" scale="10 10 10"></a-entity> -->
+<!--     <a-text
+        value="Lenape Tribe"
+        look-at="[gps-camera]"
+        scale="100 100 100"
+        gps-entity-place="latitude: 40.50243197313075; longitude: -74.25166359436211;"
+      ></a-text> -->
+
+    <!-- <a-entity material='color: green' geometry='primitive: sphere' gps-new-entity-place="latitude: 36.607820906664; longitude: -112.67499554535657;" scale="10 10 10"></a-entity> -->
+<!--     <a-text
+        value="Havasupai Tribe"
+        look-at="[gps-camera]"
+        scale="100 100 100"
+        gps-entity-place="latitude: 36.607820906664; longitude: -112.67499554535657;"
+      ></a-text> -->
+    <a-entity material='color: yellow' geometry='primitive: box' gps-entity-place="latitude: 47.660983009840116; longitude: -122.31246811752355;" scale="100 100 100"></a-entity>
+    <a-text
+        value="JJ"
+        look-at="[gps-camera]"
+        scale="100 100 100"
+        gps-entity-place="latitude: 47.660983009840116; longitude: -122.31246811752355;"
+      ></a-text>
+
+
+    <a-entity material='color: blue' geometry='primitive: box' gps-entity-place="latitude: 47.65514798774147; longitude: -122.30749033050637;" scale="100 100 100"></a-entity>
+    <a-text
+        value="University of Washington"
+        look-at="[gps-camera]"
+        scale="100 100 100"
+        gps-entity-place="latitude: 47.65514798774147; longitude: -122.30749033050637;"
+      ></a-text>
+      <a-camera gps-camera rotation-reader> </a-camera>
+    </a-scene>
+  </body>
+</html>
