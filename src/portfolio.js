@@ -351,7 +351,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed quite a few internships and mostly done projects on my own. I am actively seeking tech positions, including software engineer and cloud architect. I love doing a project that genuinely impacts our daily lives.",
+    "I have a few years of professional experience and have also completed some internships, during which I worked on diverse projects. Currently, I am actively seeking tech positions, including roles as a Software Engineer or Cloud Architect. I am passionate about working on projects that have a tangible impact on our daily lives and strive to create meaningful solutions through technology.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -411,7 +411,7 @@ const experience = {
         //   color: "#0071C5",
         // },
         {
-          title: "Solutions Architect",
+          title: "Partner Solutions Architect",
           company: "Amazon Web Services",
           company_url: "https://aws.amazon.com",
           logo_path: "aws_logo.png",
