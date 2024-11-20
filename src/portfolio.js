@@ -312,7 +312,7 @@ const certifications = {
       subtitle: "Earners of this certification have an extensive understanding of designing technical strategies to accomplish specific business goals.",
       logo_path: "AWS-SolArchitect-Pro.png",
       certificate_link:
-        "https://www.credly.com/earner/earned/badge/882cd44b-7564-42ee-9467-af27d9246c80",
+        "https://www.credly.com/badges/180498a7-99fc-459c-9da5-d7f898d13fbd/public_url",
       alt_name: "AWS Solutions Architect",
       color_code: "#146EB4",
     },
@@ -321,7 +321,7 @@ const certifications = {
       subtitle: "Earners of this certification have a comprehensive understanding of application life-cycle management. ",
       logo_path: "AWS-Dev-Associate.png",
       certificate_link:
-        "https://www.credly.com/earner/earned/badge/c23518d4-89e6-4f90-8004-89052127072b",
+        "https://www.credly.com/badges/c23518d4-89e6-4f90-8004-89052127072b/public_url",
       alt_name: "AWS Developer",
       color_code: "#146EB4",
     },
@@ -330,7 +330,7 @@ const certifications = {
       subtitle: "Earners of this certification have the ability to design and maintain network architecture for all AWS services. ",
       logo_path: "AWS-Network-Spec.png",
       certificate_link:
-        "https://www.credly.com/earner/earned/badge/180498a7-99fc-459c-9da5-d7f898d13fbd",
+        "https://www.credly.com/badges/180498a7-99fc-459c-9da5-d7f898d13fbd/public_url",
       alt_name: "AWS Network Specialty",
       color_code: "#146EB4",
     },
