@@ -22,8 +22,8 @@ const greeting = {
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/LAYTAT",
-  linkedin: "https://www.linkedin.com/in/junjie-lei-b8434718b/",
-  gmail: "jaylei2023@gmail.com",
+  linkedin: "https://www.linkedin.com/in/jjlei",
+  gmail: "jjlei2000@gmail.com",
   instagram: "https://www.instagram.com/super_fly_jjjj/",
 };
 
