@@ -516,9 +516,31 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I have writen blogs include an AWS Blog on AWS CDK, you could find them in my linkedin posts",
+      "I have written technical blogs on AWS, Cloud Infrastructure, and VR Systems. Check them out below:",
     link: "https://www.linkedin.com/in/jj-lei-b8434718b/",
     avatar_image_path: "blogs_image.svg",
+    blogs: [
+      {
+        url: "https://jhu-dsn.github.io/courses/cs717/cs717-oculus-website/",
+        title: "Low-Latency HCI with Real-Time VR Latency",
+        description: "Research on optimizing interaction latency in virtual reality environments."
+      },
+      {
+        url: "https://aws.amazon.com/blogs/devops/safely-handle-configuration-drift-with-cloudformation-drift-aware-change-sets/",
+        title: "Cloud Infra Drift Control",
+        description: "Safely handling configuration drift with CloudFormation."
+      },
+      {
+        url: "https://aws.amazon.com/blogs/devops/a-new-aws-cdk-l2-construct-for-amazon-cloudfront-origin-access-control-oac/",
+        title: "Edge Delivery (OAC)",
+        description: "Secure CloudFront origins with Origin Access Control (OAC) via AWS CDK."
+      },
+      {
+        url: "https://docker.awsworkshop.io/",
+        title: "Container Compute Systems",
+        description: "A comprehensive workshop guide on AWS container services."
+      }
+    ]
   },
 };
 

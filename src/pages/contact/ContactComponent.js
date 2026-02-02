@@ -68,6 +68,38 @@ function Contact(props) {
               >
                 {blogSection["subtitle"]}
               </p>
+              <div className="blog-list-div" style={{ marginTop: "20px", marginBottom: "30px", textAlign: "left" }}>
+                {blogSection.blogs &&
+                  blogSection.blogs.map((blog, i) => (
+                    <div key={i} style={{ marginBottom: "20px" }}>
+                      <a
+                        href={blog.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          color: theme.text,
+                          fontWeight: "bold",
+                          fontSize: "1.2rem",
+                          textDecoration: "none",
+                          borderBottom: `2px solid ${theme.accentColor}`,
+                        }}
+                        onMouseEnter={(e) => (e.target.style.color = theme.accentColor)}
+                        onMouseLeave={(e) => (e.target.style.color = theme.text)}
+                      >
+                        {blog.title}
+                      </a>
+                      <p
+                        style={{
+                          color: theme.secondaryText,
+                          marginTop: "5px",
+                          fontSize: "1rem",
+                        }}
+                      >
+                        {blog.description}
+                      </p>
+                    </div>
+                  ))}
+              </div>
               <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>
                   My LinkedIn Profile
