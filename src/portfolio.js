@@ -328,7 +328,7 @@ const certifications = {
     {
       title: "AWS Certified AI Practitioner",
       subtitle: "Earners of this certification demonstrate an understanding of AI/ML concepts and their implementation on AWS.",
-      logo_path: "aws_logo.png",
+      logo_path: "AWS-AI-Practitioner.png",
       certificate_link:
         "https://www.credly.com/users/junjie-lei.36160619/badges",
       alt_name: "AWS AI Practitioner",
@@ -337,7 +337,7 @@ const certifications = {
     {
       title: "AWS Certified SysOps Administrator – Associate",
       subtitle: "Earners of this certification have a comprehensive understanding of deploying, managing, and operating scalable, highly available, and fault-tolerant systems on AWS.",
-      logo_path: "aws_logo.png",
+      logo_path: "AWS-SysOps-Associate.png",
       certificate_link:
         "https://www.credly.com/users/junjie-lei.36160619/badges",
       alt_name: "AWS SysOps Administrator",
