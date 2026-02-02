@@ -357,59 +357,6 @@ const experience = {
     {
       title: "Work Experience",
       experiences: [
-        // {
-        //   title: "Solutions Architect",
-        //   company: "Amazon Web Services",
-        //   company_url: "https://aws.amazon.com",
-        //   logo_path: "aws_logo.png",
-        //   duration: "June 2023 - Today",
-        //   location: "Seattle, Washington",
-        //   description: `I help AWS Partners in building/enhancing their technical capabilities, and I specialize in infrastructure as code(CDK). `,
-        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-        //   color: "#FF9900",
-        // },
-        // {
-        //   title: "Software Engineer (C++)",
-        //   company: "(National Instruments) UltraSine Technologies Co., Ltd",
-        //   company_url: "https://www.ni.com/partners/s/partner/aDx3q00000000CICAY/ultrasine-technologies-co-ltd?language=ko",
-        //   logo_path: "NI_Logo.png",
-        //   duration: "Feb 2021 - July 2021",
-        //   location: "Chengdu, Sichuan, China",
-        //   description: `In my previous work experience, I gained extensive expertise in GPU computation using OpenCL, client development with QT in C++, and rendering graphics with OpenGL. Specifically, I engaged in the re-engineering of computation modules for optimized performance by utilizing GPUs with OpenCL and CUDA. This led to a remarkable enhancement of critical calculations such as IIR filter, resulting in a speed increase of over 100%. Moreover, I developed a metric system to analyze system performance. Additionally, I designed a real-time graphs rendering feature for clients to analyze real-time spectrum within the analysis system using OpenGL. I implemented dynamic scaling to ensure a stable refresh rate of 60 Hz for clients with different computing power levels. Finally, I directed the implementation of features that facilitated the system to run over Wi-Fi on drones with self-designed transfer protocols using UDP.
-        //   `,
-        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-        //   color: "#0071C5",
-        // },
-        // {
-        //   title: "Game Software Engineer (C++)",
-        //   company: "Ragnarok Origin Game Studio",
-        //   company_url: "https://ragnarok-origin.com",
-        //   logo_path: "ro.png",
-        //   duration: "June 2020 - July 2021",
-        //   location: "Shanghai, China",
-        //   description: `I worked as a game server software engineer for Ragnarok RO(A MMORPG published by Gravity Korean). This mobile game originated from the popular MMORPG Ragnarok Online. During my time, I played a key role in facilitating the development of core modules for the game server, including the global ranking, online payment, and holiday task system.
-
-        //   My contributions to the global ranking module resulted in a 20% increase in performance, while the development of a generic task distribution module enhanced the system's overall efficiency.
-          
-        //   Furthermore, I optimized the I/O multiplexing with epoll for featured server services, leading to a 10% increase in server CPU utilization efficiency.
-          
-        //   To ensure a seamless gaming experience, I designed and implemented a synchronization solution that compensated client applications with smooth strategies to stabilize game rendering, even with more than 150ms network latency. This led to a better client experience, resulting in increased user engagement and satisfaction. `,
-        //   // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-        //   color: "#0071C5",
-        // },
-        // {
-        //   title: "Node.js Backend Software Engineer (Partime)",
-        //   company: "Miaowrite Tech (Startup)",
-        //   company_url: "https://www.miaowrite.com",
-        //   logo_path: "miaowrite.png",
-        //   duration: "June 2019 - June 2020",
-        //   location: "Shanghai, China",
-        //   description: `I worked as an intern on an online text editor project that focused on assisting with thesis writing. During my time, I introduced a conversion feature from Document Object Model (DOM) to custom data structures for the web text editor. This conversion feature was designed to be highly efficient, with a minimal time complexity, and it greatly improved the performance of the text editor.
-
-        //   Furthermore, I was responsible for optimizing the database query time of the system. To achieve this, I employed several strategies, including verbose queries, indexing, and caching mechanisms with a higher hit rate. These efforts resulted in a significant 40% reduction in database query time, which significantly improved the overall performance of the system.`,
-        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-        //   color: "#0071C5",
-        // },
         {
           title: "Partner Solutions Architect",
           company: "Amazon Web Services",
@@ -417,7 +364,8 @@ const experience = {
           logo_path: "aws_logo.png",
           duration: "June 2023 - Present",
           location: "Seattle, Washington",
-          description: `I assist AWS Partners in enhancing their technical capabilities, specializing in Infrastructure as Code (IaC) using the AWS Cloud Development Kit (CDK). My role involves enabling partners to leverage AWS services effectively to meet their business goals.`,
+          description:
+            "Enable AWS Partners to strengthen technical capabilities and deliver solutions on AWS. Specialize in Infrastructure as Code (IaC) using AWS CDK; guide partners on architecture patterns, best practices, and service adoption to meet business goals.",
           color: "#FF9900",
         },
         {
@@ -427,7 +375,8 @@ const experience = {
           logo_path: "ro.png",
           duration: "June 2020 - July 2021",
           location: "Shanghai, China",
-          description: `As a game server software engineer for the mobile MMORPG *Ragnarok RO*, I developed and optimized core server modules such as the global ranking, online payment, and holiday task systems. I improved the performance of the global ranking module by 20% and enhanced system efficiency through the development of a generic task distribution module. Additionally, I optimized I/O multiplexing with epoll, increasing server CPU utilization efficiency by 10%. To ensure a smooth gaming experience, I designed a synchronization solution to compensate for network latencies over 150ms, resulting in increased user engagement and satisfaction.`,
+          description:
+            "Developed and optimized core server modules for the mobile MMORPG Ragnarok RO (global ranking, online payment, holiday task systems). Improved performance of the global ranking module by 20%. Optimized I/O multiplexing with epoll, increasing server CPU utilization efficiency by 10%. Designed a synchronization solution compensating for network latencies over 150ms.",
           color: "#0071C5",
         },
         {
@@ -437,10 +386,10 @@ const experience = {
           logo_path: "miaowrite.png",
           duration: "June 2019 - June 2020",
           location: "Shanghai, China",
-          description: `During my internship, I contributed to the development of an online text editor aimed at thesis writing. I introduced an efficient conversion feature from the Document Object Model (DOM) to custom data structures, significantly enhancing the text editor's performance. I also optimized the database query time by employing verbose queries, indexing, and caching strategies, achieving a 40% reduction in query time and improving the system's overall responsiveness.`,
+          description:
+            "Contributed to an online text editor for thesis writing. Implemented efficient conversion from DOM to custom data structures to improve editor performance. Reduced DB query time by 40% via verbose queries, indexing, and caching.",
           color: "#0071C5",
         },
-        
       ],
     },
     // {
