@@ -13,7 +13,7 @@ const greeting = {
   logo_name: "JJ Lei",
   nickname: "J",
   full_name: "JJ Lei",
-  subTitle: "I am an AWS solutions architect, a game developer, and a dog lover. (Verified)",
+  subTitle: "I am an AWS solutions architect, a game developer, and a dog lover.",
   resumeLink:
     "https://www.dropbox.com/s/5gkrjqutr19qjil/Junjie_Lei_Resume.pdf?dl=0",
   mail: "jaylei2023@gmail.com",
@@ -287,7 +287,7 @@ const degrees = {
       alt_name: "UF_LOGO",
       duration: "2018",
       descriptions: [
-        "⚡ I studied for 16 credit hours and worked at the ECE lab of UF.",
+        "⚡ Worked in the UF ECE Lab as a research assistant.",
       ],
       website_link: "https://www.ecust.edu.cn/en/2022/0307/c574a164928/page.htm",
     },
