@@ -73,14 +73,11 @@ function Header(props) {
             </span>
             <span style={{ color: theme.text }}></span>
           </NavLink>
-          <input className="menu-btn" type="checkbox" id="menu-btn" />
-          <label className="menu-icon" htmlFor="menu-btn">
-            <span className="navicon"></span>
-          </label>
           <button {...styles} onClick={changeTheme} className="mobile-theme-switch">
             {icon}
           </button>
-          <ul className="menu">
+          <input className="menu-btn" type="checkbox" id="menu-btn" />
+          <label className="menu-icon" htmlFor="menu-btn">
             <li>
               <NavLink
                 className="homei"

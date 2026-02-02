@@ -183,10 +183,10 @@
 
 /* mobile theme switch */
 .mobile-theme-switch {
-  display: block;
-  float: right;
-  margin-top: 15px;
-  margin-right: 10px;
+  display: inline-block !important;
+  float: left;
+  margin-top: 10px;
+  margin-left: 0px !important;
 }
 
 /* 48em = 768px */

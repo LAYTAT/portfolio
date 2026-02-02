@@ -313,16 +313,7 @@ const certifications = {
       logo_path: "AWS-SolArchitect-Pro.png",
       certificate_link:
         "https://www.credly.com/badges/180498a7-99fc-459c-9da5-d7f898d13fbd/public_url",
-      alt_name: "AWS Solutions Architect",
-      color_code: "#146EB4",
-    },
-    {
-      title: "AWS Certified Developer",
-      subtitle: "Earners of this certification have a comprehensive understanding of application life-cycle management. ",
-      logo_path: "AWS-Dev-Associate.png",
-      certificate_link:
-        "https://www.credly.com/badges/c23518d4-89e6-4f90-8004-89052127072b/public_url",
-      alt_name: "AWS Developer",
+      alt_name: "AWS Solutions Architect Professional",
       color_code: "#146EB4",
     },
     {
@@ -334,15 +325,33 @@ const certifications = {
       alt_name: "AWS Network Specialty",
       color_code: "#146EB4",
     },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
+    {
+      title: "AWS Certified AI Practitioner",
+      subtitle: "Earners of this certification demonstrate an understanding of AI/ML concepts and their implementation on AWS.",
+      logo_path: "aws_logo.png",
+      certificate_link:
+        "https://www.credly.com/users/junjie-lei.36160619/badges",
+      alt_name: "AWS AI Practitioner",
+      color_code: "#146EB4",
+    },
+    {
+      title: "AWS Certified SysOps Administrator – Associate",
+      subtitle: "Earners of this certification have a comprehensive understanding of deploying, managing, and operating scalable, highly available, and fault-tolerant systems on AWS.",
+      logo_path: "aws_logo.png",
+      certificate_link:
+        "https://www.credly.com/users/junjie-lei.36160619/badges",
+      alt_name: "AWS SysOps Administrator",
+      color_code: "#146EB4",
+    },
+    {
+      title: "AWS Certified Developer – Associate",
+      subtitle: "Earners of this certification have a comprehensive understanding of application life-cycle management.",
+      logo_path: "AWS-Dev-Associate.png",
+      certificate_link:
+        "https://www.credly.com/badges/c23518d4-89e6-4f90-8004-89052127072b/public_url",
+      alt_name: "AWS Developer Associate",
+      color_code: "#146EB4",
+    },
   ],
 };
 
