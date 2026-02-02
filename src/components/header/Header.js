@@ -77,6 +77,9 @@ function Header(props) {
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
           </label>
+          <button {...styles} onClick={changeTheme} className="mobile-theme-switch">
+            {icon}
+          </button>
           <ul className="menu">
             <li>
               <NavLink

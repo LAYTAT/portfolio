@@ -181,6 +181,14 @@
   color: #ffffff !important;
 }
 
+/* mobile theme switch */
+.mobile-theme-switch {
+  display: block;
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -196,6 +204,9 @@
     max-height: none;
   }
   .header .menu-icon {
+    display: none;
+  }
+  .mobile-theme-switch {
     display: none;
   }
 }
