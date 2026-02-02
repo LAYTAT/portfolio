@@ -287,7 +287,7 @@ const degrees = {
       alt_name: "UF_LOGO",
       duration: "2018",
       descriptions: [
-        "⚡ Worked in the UF ECE Lab as a research assistant.",
+        "⚡ I studied for 16 credit hours and worked in the UF ECE Lab as a research assistant.",
       ],
       website_link: "https://www.ecust.edu.cn/en/2022/0307/c574a164928/page.htm",
     },
