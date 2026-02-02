@@ -66,18 +66,14 @@ function Header(props) {
     <Fade top duration={1000} distance="20px">
       <div>
         <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
-            <span style={{ color: theme.text }}></span>
-            <span className="logo-name" style={{ color: theme.text }}>
-              {greeting.logo_name}
-            </span>
-            <span style={{ color: theme.text }}></span>
-          </NavLink>
-          <button {...styles} onClick={changeTheme} className="mobile-theme-switch">
-            {icon}
-          </button>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
+            <span className="navicon"></span>
+          </label>
+          <button onClick={changeTheme} className="mobile-theme-switch">
+            {icon}
+          </button>
+          <ul className="menu">
             <span className="navicon"></span>
           </label>
           <ul className="menu">

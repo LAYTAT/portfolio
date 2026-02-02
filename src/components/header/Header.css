@@ -184,9 +184,11 @@
 /* mobile theme switch */
 .mobile-theme-switch {
   display: inline-block !important;
-  float: left;
-  margin-top: 10px;
-  margin-left: 0px !important;
+  float: right;
+  padding: 30px 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 /* 48em = 768px */
