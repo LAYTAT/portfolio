@@ -16,15 +16,15 @@ const greeting = {
   subTitle: "I am an AWS solutions architect, a game developer, and a dog lover.",
   resumeLink:
     "https://www.dropbox.com/s/5gkrjqutr19qjil/Junjie_Lei_Resume.pdf?dl=0",
-  mail: "jaylei2023@gmail.com",
+  mail: "jj@jjlei.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/LAYTAT",
   linkedin: "https://www.linkedin.com/in/jjlei",
-  gmail: "jjlei2000@gmail.com",
-  instagram: "https://www.instagram.com/super_fly_jjjj/",
+  gmail: "jj@jjlei.com",
+  instagram: "https://www.instagram.com/superfly_jjjj/",
 };
 
 const skills = {

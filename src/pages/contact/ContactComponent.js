@@ -68,7 +68,7 @@ function Contact(props) {
               >
                 {blogSection["subtitle"]}
               </p>
-              <div className="blog-list-div" style={{ marginTop: "20px", marginBottom: "30px", textAlign: "left" }}>
+              <div className="blog-list-div" style={{ marginTop: "20px", marginBottom: "30px", textAlign: "center" }}>
                 {blogSection.blogs &&
                   blogSection.blogs.map((blog, i) => (
                     <div key={i} style={{ marginBottom: "20px" }}>
