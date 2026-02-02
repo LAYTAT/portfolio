@@ -13,7 +13,7 @@ const greeting = {
   logo_name: "JJ Lei",
   nickname: "J",
   full_name: "JJ Lei",
-  subTitle: "I am an AWS solutions architect, a game developer, and a dog lover.",
+  subTitle: "I am an AWS solutions architect, a game developer, and a dog lover. (Verified)",
   resumeLink:
     "https://www.dropbox.com/s/5gkrjqutr19qjil/Junjie_Lei_Resume.pdf?dl=0",
   mail: "jaylei2023@gmail.com",
