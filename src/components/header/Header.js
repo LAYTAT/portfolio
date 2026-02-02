@@ -78,6 +78,9 @@ function Header(props) {
           </button>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
+            <span className="navicon"></span>
+          </label>
+          <ul className="menu">
             <li>
               <NavLink
                 className="homei"
