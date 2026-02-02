@@ -70,8 +70,8 @@
 .mobile-theme-switch {
   display: inline-block !important;
   float: right;
-  padding: 28px 10px; /* Matched padding with menu-icon */
-  margin-top: 0; /* Remove top margin to align */
+  padding: 18px 20px;
+  margin-top: 0;
   background-color: transparent;
   border: none;
   outline: none;
