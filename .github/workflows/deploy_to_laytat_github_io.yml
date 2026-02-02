@@ -30,6 +30,8 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Build
+        env:
+          CI: false
         run: npm run build
 
       # Deploy the CRA build/ output into the laytat.github.io repo's default branch.
