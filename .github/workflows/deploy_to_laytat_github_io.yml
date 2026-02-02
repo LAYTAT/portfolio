@@ -1,0 +1,45 @@
+name: Deploy portfolio to laytat.github.io
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-laytat-github-io
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      # Deploy the CRA build/ output into the laytat.github.io repo's default branch.
+      # Requires a PAT with access to that repo stored as a secret.
+      - name: Deploy to laytat.github.io repo
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.DEPLOY_TOKEN }}
+          repository-name: LAYTAT/laytat.github.io
+          branch: main
+          folder: build
+          clean: true
+          commit-message: "Deploy from portfolio@${{ github.sha }}"
