@@ -66,6 +66,17 @@
   user-select: none;
 }
 
+/* mobile theme switch */
+.mobile-theme-switch {
+  display: inline-block !important;
+  float: right;
+  padding: 28px 10px; /* Matched padding with menu-icon */
+  margin-top: 0; /* Remove top margin to align */
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
 .header .menu-icon .navicon {
   background: #146EB4;
   display: block;
@@ -181,16 +192,6 @@
   color: #ffffff !important;
 }
 
-/* mobile theme switch */
-.mobile-theme-switch {
-  display: inline-block !important;
-  float: right;
-  padding: 30px 10px;
-  background-color: transparent;
-  border: none;
-  outline: none;
-}
-
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -209,7 +210,7 @@
     display: none;
   }
   .mobile-theme-switch {
-    display: none;
+    display: none !important;
   }
 }
 
