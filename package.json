@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "https://laytat.github.io",
+  "homepage": "https://jjlei.com", 
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
